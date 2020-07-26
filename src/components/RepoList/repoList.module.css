@@ -1,0 +1,83 @@
+
+.repositories ul{
+    list-style: none;
+    padding-left: 0;
+}
+.repositories_li{
+    padding-top: 24px;
+    padding-bottom: 12%;
+    border-bottom: 1px solid #e1e4e8;
+}
+.repositories_li a{
+    text-decoration: none;
+    color: #0366d6;
+    font-size: 20px;
+}
+.repositories_left{
+    width: 75%;
+}
+.repositories_right{
+    width: 25%;
+}
+.repo{
+    float: left;
+    padding: 10px;
+}
+.linktag h3{
+    margin: 0;
+}
+.spangray{
+    color: #586069 ;
+    font-size:12px ;
+}
+.spangray a{
+    color: #586069 !important;
+    font-size:12px !important;
+}
+.textarea_pra{
+    font-size:14px;
+    color:#586069;
+}
+.bottom_details{
+    font-size: 12px !important;
+    color: #586069 !important;
+}
+.bottom_details_span{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.bottom_details_text{
+    color: #586069;
+    padding-right: 7px;
+
+}
+.muted_link{
+    margin-right: 16px;
+    font-size: 12px !important;
+    color: #586069 !important;;
+}
+.spanmuted{
+    margin-right: 16px;
+}
+.octicon .octicon_law {
+    margin-right: 8px;
+}
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .repositories_left,.repositories_right{
+       width:  100%;
+   }
+ 
+}
+@media(max-width:1300px){
+   .form_sel,.form_input{
+       width: 100%;
+   }
+}
